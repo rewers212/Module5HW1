@@ -6,6 +6,8 @@ namespace Module5HW1
     {
         public static void Main(string[] args)
         {
+            var start = new Startup();
+            start.Run().GetAwaiter().GetResult();
         }
     }
 }
